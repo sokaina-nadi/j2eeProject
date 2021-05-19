@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+
+body {
+	width: 1200px;
+	height: 1200px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	z-index: 0;
+}
+
+body::after {
+	background:
+		url(file:///C:/Users/ASUS/eclipse-workspace/NADI_SOKAINA/src/main/webapp/images/biblio.jpg);
+	content: "";
+	opacity: 0.9;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: -1;
+	
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-weight: 800;
+	vertical-align: inherit;
+	font-size: 50px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+}
